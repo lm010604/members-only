@@ -1,0 +1,19 @@
+current directory: /Users/laurenmok/Desktop/Projects/members-only/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+/Users/laurenmok/.rbenv/versions/3.4.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/laurenmok/Desktop/Projects/members-only/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250808-2316-eilwcj sitelibdir\=./.gem.20250808-2316-eilwcj clean
+
+current directory: /Users/laurenmok/Desktop/Projects/members-only/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250808-2316-eilwcj sitelibdir\=./.gem.20250808-2316-eilwcj
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/laurenmok/Desktop/Projects/members-only/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250808-2316-eilwcj sitelibdir\=./.gem.20250808-2316-eilwcj install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20250808-2316-eilwcj/debug
+
+current directory: /Users/laurenmok/Desktop/Projects/members-only/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250808-2316-eilwcj sitelibdir\=./.gem.20250808-2316-eilwcj clean

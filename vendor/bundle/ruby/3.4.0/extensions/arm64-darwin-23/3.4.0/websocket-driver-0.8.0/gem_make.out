@@ -1,0 +1,18 @@
+current directory: /Users/laurenmok/Desktop/Projects/members-only/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/Users/laurenmok/.rbenv/versions/3.4.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/laurenmok/Desktop/Projects/members-only/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250808-2316-cxhhfo sitelibdir\=./.gem.20250808-2316-cxhhfo clean
+
+current directory: /Users/laurenmok/Desktop/Projects/members-only/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250808-2316-cxhhfo sitelibdir\=./.gem.20250808-2316-cxhhfo
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/laurenmok/Desktop/Projects/members-only/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250808-2316-cxhhfo sitelibdir\=./.gem.20250808-2316-cxhhfo install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20250808-2316-cxhhfo
+
+current directory: /Users/laurenmok/Desktop/Projects/members-only/vendor/bundle/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250808-2316-cxhhfo sitelibdir\=./.gem.20250808-2316-cxhhfo clean
