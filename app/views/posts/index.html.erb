@@ -1,0 +1,27 @@
+<h1>Posts</h1>
+
+<% if logged_in? %>
+    <p>Signed in as <%= current_user.name %> </p>
+    <%= button_to "Sign out", session_path, method: :delete %>
+    <%= link_to "New Post", new_post_path %>
+<% else %>
+    <p><%= link_to "Sign up", new_user_path %> or <%= link_to "Sign in", new_session_path %> to see authors</p>
+  <% end %>
+
+
+<ul>
+  <% @posts.each do |post| %>
+    <li>
+      <p><%= post.title %></p>
+      <p><%= post.body %></p>
+      <small>
+        <% if logged_in? %>
+          by <%= post.user.name %>
+        <% else %>
+          by Anonymous
+        <% end %>
+        • <%= time_ago_in_words(post.created_at) %> ago
+      </small>
+    </li>
+  <% end %>
+</ul>
